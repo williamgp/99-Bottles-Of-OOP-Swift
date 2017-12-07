@@ -1,5 +1,5 @@
 //
-//  _9_Bottles_of_OOPTests.swift
+//  99BottlesTests.swift
 //  99 Bottles of OOPTests
 //
 //  Created by William Peregoy on 12/5/17.
@@ -7,9 +7,8 @@
 //
 
 import XCTest
-@testable import _9_Bottles_of_OOP
 
-class _9_Bottles_of_OOPTests: XCTestCase {
+class _9BottlesTests: XCTestCase {
     
     override func setUp() {
         super.setUp()
