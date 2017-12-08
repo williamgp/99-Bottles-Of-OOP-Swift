@@ -9,4 +9,6 @@
 import Foundation
 
 class Bottles {
+    func verse() {
+    }
 }
