@@ -53,6 +53,7 @@ class Bottles {
         }
     }
     
-    func quantity() {
+    func quantity() -> String {
+        return "no more"
     }
 }
