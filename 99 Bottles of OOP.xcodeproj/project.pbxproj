@@ -19,6 +19,7 @@
 		3DBD5FC51FDB23BF00FEDAC0 /* String+CapitalizedFirst.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DBD5FC31FDB234700FEDAC0 /* String+CapitalizedFirst.swift */; };
 		3DBD5FC71FDB2FEF00FEDAC0 /* BottleNumber.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DBD5FC61FDB2FEF00FEDAC0 /* BottleNumber.swift */; };
 		3DBD5FC81FDB448700FEDAC0 /* BottleNumber.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DBD5FC61FDB2FEF00FEDAC0 /* BottleNumber.swift */; };
+		3DBD5FCA1FDB5A4500FEDAC0 /* BottleNumber0.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DBD5FC91FDB5A4500FEDAC0 /* BottleNumber0.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +46,7 @@
 		3DBD5FC01FDA0DD800FEDAC0 /* Bottles.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Bottles.swift; sourceTree = "<group>"; };
 		3DBD5FC31FDB234700FEDAC0 /* String+CapitalizedFirst.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+CapitalizedFirst.swift"; sourceTree = "<group>"; };
 		3DBD5FC61FDB2FEF00FEDAC0 /* BottleNumber.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BottleNumber.swift; sourceTree = "<group>"; };
+		3DBD5FC91FDB5A4500FEDAC0 /* BottleNumber0.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BottleNumber0.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -90,6 +92,7 @@
 				3D99D5771FD7A5C600129931 /* ViewController.swift */,
 				3DBD5FC01FDA0DD800FEDAC0 /* Bottles.swift */,
 				3DBD5FC61FDB2FEF00FEDAC0 /* BottleNumber.swift */,
+				3DBD5FC91FDB5A4500FEDAC0 /* BottleNumber0.swift */,
 				3DBD5FC31FDB234700FEDAC0 /* String+CapitalizedFirst.swift */,
 				3D99D5791FD7A5C600129931 /* Main.storyboard */,
 				3D99D57C1FD7A5C600129931 /* Assets.xcassets */,
@@ -212,6 +215,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				3DBD5FC71FDB2FEF00FEDAC0 /* BottleNumber.swift in Sources */,
+				3DBD5FCA1FDB5A4500FEDAC0 /* BottleNumber0.swift in Sources */,
 				3DBD5FC41FDB234700FEDAC0 /* String+CapitalizedFirst.swift in Sources */,
 				3D99D5781FD7A5C600129931 /* ViewController.swift in Sources */,
 				3D99D5761FD7A5C600129931 /* AppDelegate.swift in Sources */,
