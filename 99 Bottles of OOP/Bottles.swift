@@ -54,6 +54,10 @@ class Bottles {
     }
     
     func quantity(_ number: Int = 0) -> String {
-        return "no more"
+        if number == 0 {
+            return "no more"
+        } else {
+            return "\(number)"
+        }
     }
 }
