@@ -47,7 +47,7 @@ class BottleNumber {
         }
     }
     
-    func successor(_ number: Int) -> Int {
+    func successor() -> Int {
         if number == 0 {
             return 99
         } else {

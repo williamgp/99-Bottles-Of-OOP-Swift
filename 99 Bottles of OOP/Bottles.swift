@@ -41,6 +41,6 @@ class Bottles {
     }
     
     func successor(_ number: Int) -> Int {
-        return BottleNumber(number).successor(number)
+        return BottleNumber(number).successor()
     }
 }
