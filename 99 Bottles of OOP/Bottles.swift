@@ -21,9 +21,9 @@ class Bottles {
         let bottleNumber = BottleNumber(number)
         let nextBottleNumber = BottleNumber(bottleNumber.successor())
         
-        return "\(bottleNumber.quantity().capitalizedFirst) \(bottleNumber.container()) of beer on the wall, " +
-            "\(bottleNumber.quantity()) \(bottleNumber.container()) of beer.\n" +
+        return "\(bottleNumber.description.capitalizedFirst) of beer on the wall, " +
+            "\(bottleNumber.description) of beer.\n" +
             "\(bottleNumber.action()), " +
-        "\(nextBottleNumber.quantity()) \(nextBottleNumber.container()) of beer on the wall.\n"
+        "\(nextBottleNumber.description) of beer on the wall.\n"
     }
 }
