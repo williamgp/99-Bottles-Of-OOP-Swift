@@ -25,7 +25,7 @@ class Bottles {
     }
     
     func container(_ number: Int) -> String {
-        return BottleNumber(number).container(number)
+        return BottleNumber(number).container()
     }
     
     func pronoun(_ number: Int) -> String {
