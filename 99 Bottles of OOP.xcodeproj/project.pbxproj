@@ -15,6 +15,7 @@
 		3DBD5FB51FD9F1D800FEDAC0 /* BottlesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DBD5FB41FD9F1D800FEDAC0 /* BottlesTests.swift */; };
 		3DBD5FC11FDA0DD900FEDAC0 /* Bottles.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DBD5FC01FDA0DD800FEDAC0 /* Bottles.swift */; };
 		3DBD5FC21FDA0DDF00FEDAC0 /* Bottles.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DBD5FC01FDA0DD800FEDAC0 /* Bottles.swift */; };
+		3DBD5FC41FDB234700FEDAC0 /* String+CapitalizedFirst.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DBD5FC31FDB234700FEDAC0 /* String+CapitalizedFirst.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,6 +40,7 @@
 		3D99D58C1FD7A5C600129931 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3DBD5FB41FD9F1D800FEDAC0 /* BottlesTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BottlesTests.swift; sourceTree = "<group>"; };
 		3DBD5FC01FDA0DD800FEDAC0 /* Bottles.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Bottles.swift; sourceTree = "<group>"; };
+		3DBD5FC31FDB234700FEDAC0 /* String+CapitalizedFirst.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+CapitalizedFirst.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,6 +85,7 @@
 				3D99D5751FD7A5C600129931 /* AppDelegate.swift */,
 				3D99D5771FD7A5C600129931 /* ViewController.swift */,
 				3DBD5FC01FDA0DD800FEDAC0 /* Bottles.swift */,
+				3DBD5FC31FDB234700FEDAC0 /* String+CapitalizedFirst.swift */,
 				3D99D5791FD7A5C600129931 /* Main.storyboard */,
 				3D99D57C1FD7A5C600129931 /* Assets.xcassets */,
 				3D99D57E1FD7A5C600129931 /* LaunchScreen.storyboard */,
@@ -203,6 +206,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3DBD5FC41FDB234700FEDAC0 /* String+CapitalizedFirst.swift in Sources */,
 				3D99D5781FD7A5C600129931 /* ViewController.swift in Sources */,
 				3D99D5761FD7A5C600129931 /* AppDelegate.swift in Sources */,
 				3DBD5FC11FDA0DD900FEDAC0 /* Bottles.swift in Sources */,
