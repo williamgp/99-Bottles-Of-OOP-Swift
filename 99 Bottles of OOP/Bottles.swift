@@ -18,6 +18,7 @@ class Bottles {
     }
     
     func verse(_ number: Int) -> String {
+        let bottleNumber = BottleNumber(number)
         return "\(quantity(number).capitalizedFirst) \(container(number)) of beer on the wall, " +
             "\(quantity(number)) \(container(number)) of beer.\n" +
             "\(action(number)), " +
