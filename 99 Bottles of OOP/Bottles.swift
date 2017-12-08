@@ -42,11 +42,6 @@ class Bottles {
         }
     }
     
-    func container(_ number: Int) -> String {
-        if number == 1 {
-            return "bottle"
-        } else {
-            return "bottles"
-        }
+    func container() {
     }
 }
