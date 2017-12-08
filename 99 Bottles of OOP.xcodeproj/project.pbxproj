@@ -18,6 +18,7 @@
 		3DBD5FC41FDB234700FEDAC0 /* String+CapitalizedFirst.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DBD5FC31FDB234700FEDAC0 /* String+CapitalizedFirst.swift */; };
 		3DBD5FC51FDB23BF00FEDAC0 /* String+CapitalizedFirst.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DBD5FC31FDB234700FEDAC0 /* String+CapitalizedFirst.swift */; };
 		3DBD5FC71FDB2FEF00FEDAC0 /* BottleNumber.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DBD5FC61FDB2FEF00FEDAC0 /* BottleNumber.swift */; };
+		3DBD5FC81FDB448700FEDAC0 /* BottleNumber.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DBD5FC61FDB2FEF00FEDAC0 /* BottleNumber.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -222,6 +223,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3DBD5FC81FDB448700FEDAC0 /* BottleNumber.swift in Sources */,
 				3DBD5FB51FD9F1D800FEDAC0 /* BottlesTests.swift in Sources */,
 				3DBD5FC21FDA0DDF00FEDAC0 /* Bottles.swift in Sources */,
 				3DBD5FC51FDB23BF00FEDAC0 /* String+CapitalizedFirst.swift in Sources */,

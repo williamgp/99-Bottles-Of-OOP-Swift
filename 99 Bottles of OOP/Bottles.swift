@@ -25,6 +25,7 @@ class Bottles {
     }
     
     func container(_ number: Int) -> String {
+        _ = BottleNumber(number).container(number)
         if number == 1 {
             return "bottle"
         } else {
