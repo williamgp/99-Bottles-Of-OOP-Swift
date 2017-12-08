@@ -82,6 +82,7 @@ class BottlesTests: XCTestCase {
     
     func testTheWholeSong() {
         let bottles = Bottles()
-        XCTAssertEqual(bottles.verses(99, 0), bottles.song())
+        let expected = (0 ... 99).reversed().map { bottles.verse($0) }.joined(separator: "\n")
+        XCTAssertEqual(expected, bottles.song())
     }
 }
