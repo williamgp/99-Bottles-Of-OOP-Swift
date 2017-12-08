@@ -13,7 +13,7 @@ class ViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        label.text = Bottles().song()
+//        label.text = Bottles().song()
     }
 
     override func didReceiveMemoryWarning() {

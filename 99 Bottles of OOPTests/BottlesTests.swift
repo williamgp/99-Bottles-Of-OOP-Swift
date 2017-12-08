@@ -10,15 +10,11 @@ import XCTest
 
 class BottlesTests: XCTestCase {
     
-    override func setUp() {
-        super.setUp()
-    }
-    
-    override func tearDown() {
-        super.tearDown()
-    }
-    
-    func testExample() {
-
+    func testTheFirstVerse() {
+        let expected = "99 bottles of beer on the wall, " +
+            "99 bottles of beer.\n" +
+            "Take one down and pass it around, " +
+        "98 bottles of beer on the wall.\n"
+        XCTAssertEqual(expected, Bottles().verse(99))
     }
 }
