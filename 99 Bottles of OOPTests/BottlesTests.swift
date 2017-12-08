@@ -9,7 +9,6 @@
 import XCTest
 
 class BottlesTests: XCTestCase {
-    
     func testTheFirstVerse() {
         let expected = "99 bottles of beer on the wall, " +
             "99 bottles of beer.\n" +
