@@ -9,5 +9,43 @@
 import Foundation
 
 class BottleNumber {
+    func container(_ number: Int) -> String {
+        if number == 1 {
+            return "bottle"
+        } else {
+            return "bottles"
+        }
+    }
     
+    func pronoun(_ number: Int) -> String {
+        if number == 1 {
+            return "it"
+        } else {
+            return "one"
+        }
+    }
+    
+    func quantity(_ number: Int) -> String {
+        if number == 0 {
+            return "no more"
+        } else {
+            return "\(number)"
+        }
+    }
+    
+    func action(_ number: Int) -> String {
+        if number == 0 {
+            return "Go to the store and buy some more"
+        } else {
+            return "Take \(pronoun(number)) down and pass it around"
+        }
+    }
+    
+    func successor(_ number: Int) -> Int {
+        if number == 0 {
+            return 99
+        } else {
+            return number - 1
+        }
+    }
 }
