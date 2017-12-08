@@ -44,4 +44,7 @@ class Bottles {
             return "bottles"
         }
     }
+    
+    func pronoun() {
+    }
 }
