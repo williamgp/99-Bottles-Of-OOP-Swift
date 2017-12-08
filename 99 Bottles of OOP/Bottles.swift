@@ -45,7 +45,7 @@ class Bottles {
         }
     }
     
-    func pronoun() -> String {
+    func pronoun(_ number: Int = 0) -> String {
         return "one"
     }
 }
