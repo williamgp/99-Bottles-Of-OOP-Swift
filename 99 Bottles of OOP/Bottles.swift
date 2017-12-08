@@ -23,7 +23,7 @@ class Bottles {
             return "\(quantity(number).capitalizedFirst) \(container(number)) of beer on the wall, " +
                 "\(quantity(number)) \(container(number)) of beer.\n" +
                 "\(action(number)), " +
-            "99 bottles of beer on the wall.\n"
+            "\(quantity(99)) bottles of beer on the wall.\n"
         default:
             return "\(quantity(number).capitalizedFirst) \(container(number)) of beer on the wall, " +
                 "\(quantity(number)) \(container(number)) of beer.\n" +
