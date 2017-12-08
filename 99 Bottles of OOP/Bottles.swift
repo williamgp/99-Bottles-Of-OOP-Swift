@@ -46,6 +46,10 @@ class Bottles {
     }
     
     func pronoun(_ number: Int = 0) -> String {
-        return "one"
+        if number == 1 {
+            return "it"
+        } else {
+            return "one"
+        }
     }
 }
