@@ -10,11 +10,7 @@ import Foundation
 
 class Bottles {
     func verses(_ starting: Int, _ ending: Int) -> String {
-        if starting == 99 {
-            return verse(99) + "\n" + verse(98)
-        } else {
-            return verse(2) + "\n" + verse(1) + "\n" + verse(0)
-        }
+        return (ending ... starting).reversed().map { verse($0) }.joined(separator: "\n")
     }
     
     func verse(_ number: Int) -> String {
