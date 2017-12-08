@@ -19,10 +19,12 @@ class Bottles {
     
     func verse(_ number: Int) -> String {
         let bottleNumber = BottleNumber(number)
+        let nextBottleNumber = BottleNumber(bottleNumber.successor())
+        
         return "\(bottleNumber.quantity().capitalizedFirst) \(bottleNumber.container()) of beer on the wall, " +
             "\(bottleNumber.quantity()) \(bottleNumber.container()) of beer.\n" +
             "\(bottleNumber.action()), " +
-        "\(quantity(successor(number))) \(container(successor(number))) of beer on the wall.\n"
+        "\(nextBottleNumber.quantity()) \(nextBottleNumber.container()) of beer on the wall.\n"
     }
     
     func container(_ number: Int) -> String {
