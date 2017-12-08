@@ -9,6 +9,12 @@
 import Foundation
 
 class BottleNumber {
+    let number: Int
+    
+    init(_ number: Int) {
+        self.number = number
+    }
+    
     func container(_ number: Int) -> String {
         if number == 1 {
             return "bottle"
