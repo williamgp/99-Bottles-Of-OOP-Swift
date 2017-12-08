@@ -22,12 +22,12 @@ class Bottles {
         case 0:
             return "\(quantity(number).capitalizedFirst) \(container(number)) of beer on the wall, " +
                 "\(quantity(number)) \(container(number)) of beer.\n" +
-                "Go to the store and buy some more, " +
+                "\(action(number)), " +
             "99 bottles of beer on the wall.\n"
         default:
             return "\(quantity(number).capitalizedFirst) \(container(number)) of beer on the wall, " +
                 "\(quantity(number)) \(container(number)) of beer.\n" +
-                "Take \(pronoun(number)) down and pass it around, " +
+                "\(action(number)), " +
             "\(quantity(number - 1)) \(container(number - 1)) of beer on the wall.\n"
         }
     }
