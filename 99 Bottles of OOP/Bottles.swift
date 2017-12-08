@@ -45,6 +45,7 @@ class Bottles {
         }
     }
     
-    func pronoun() {
+    func pronoun() -> String {
+        return "one"
     }
 }
