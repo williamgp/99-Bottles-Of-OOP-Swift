@@ -9,6 +9,10 @@
 import Foundation
 
 class Bottles {
+    func song() -> String {
+        return verses(99, 0)
+    }
+    
     func verses(_ starting: Int, _ ending: Int) -> String {
         return (ending ... starting).reversed().map { verse($0) }.joined(separator: "\n")
     }
