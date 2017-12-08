@@ -9,6 +9,7 @@
 import Foundation
 
 class Bottles {
-    func verse(_:Int) {
+    func verse(_: Int) -> String {
+        return ""
     }
 }
