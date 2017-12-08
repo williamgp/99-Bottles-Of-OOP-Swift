@@ -26,24 +26,4 @@ class Bottles {
             "\(bottleNumber.action()), " +
         "\(nextBottleNumber.quantity()) \(nextBottleNumber.container()) of beer on the wall.\n"
     }
-    
-    func container(_ number: Int) -> String {
-        return BottleNumber(number).container()
-    }
-    
-    func pronoun(_ number: Int) -> String {
-        return BottleNumber(number).pronoun()
-    }
-    
-    func quantity(_ number: Int) -> String {
-        return BottleNumber(number).quantity()
-    }
-    
-    func action(_ number: Int) -> String {
-        return BottleNumber(number).action()
-    }
-    
-    func successor(_ number: Int) -> Int {
-        return BottleNumber(number).successor()
-    }
 }
