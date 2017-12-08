@@ -21,7 +21,7 @@ class Bottles {
         let bottleNumber = BottleNumber(number)
         return "\(quantity(number).capitalizedFirst) \(container(number)) of beer on the wall, " +
             "\(quantity(number)) \(container(number)) of beer.\n" +
-            "\(action(number)), " +
+            "\(bottleNumber.action()), " +
         "\(quantity(successor(number))) \(container(number - 1)) of beer on the wall.\n"
     }
     
