@@ -13,6 +13,10 @@ class Bottles {
         return "\(number) bottles of beer on the wall, " +
             "\(number) bottles of beer.\n" +
             "Take one down and pass it around, " +
-        "\(number - 1) bottle\(number - 1 == 1 ? "" : "s") of beer on the wall.\n"
+        "\(number - 1) bottle\(pluralize(number)) of beer on the wall.\n"
+    }
+    
+    func pluralize(_ number: Int) -> String {
+        return number - 1 == 1 ? "" : "s"
     }
 }
