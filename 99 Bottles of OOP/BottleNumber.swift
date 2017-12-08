@@ -23,7 +23,7 @@ class BottleNumber {
         }
     }
     
-    func pronoun(_ deleteMe: Int? = nil) -> String {
+    func pronoun() -> String {
         if number == 1 {
             return "it"
         } else {
