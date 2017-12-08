@@ -55,4 +55,12 @@ class Bottles {
             return "\(number)"
         }
     }
+    
+    func action(_ number: Int) -> String {
+        if number == 0 {
+            return "Go to the store and buy some more"
+        } else {
+            return "Take \(pronoun(number)) down and pass it around"
+        }
+    }
 }
