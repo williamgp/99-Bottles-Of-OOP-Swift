@@ -9,6 +9,6 @@
 import Foundation
 
 class Bottles {
-    func verse() {
+    func verse(_:Int) {
     }
 }
