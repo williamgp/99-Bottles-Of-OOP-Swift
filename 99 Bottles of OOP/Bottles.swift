@@ -10,13 +10,16 @@ import Foundation
 
 class Bottles {
     func verse(_ number: Int) -> String {
-        return "\(number) bottles of beer on the wall, " +
-            "\(number) bottles of beer.\n" +
-            "Take one down and pass it around, " +
-        "\(number - 1) bottle\(pluralize(number)) of beer on the wall.\n"
-    }
-    
-    func pluralize(_ number: Int) -> String {
-        return number - 1 == 1 ? "" : "s"
+        if number == 2 {
+            return "2 bottles of beer on the wall, " +
+                "2 bottles of beer.\n" +
+                "Take one down and pass it around, " +
+            "1 bottle of beer on the wall.\n"
+        } else {
+            return "\(number) bottles of beer on the wall, " +
+                "\(number) bottles of beer.\n" +
+                "Take one down and pass it around, " +
+            "\(number - 1) bottles of beer on the wall.\n"
+        }
     }
 }
