@@ -29,34 +29,18 @@ class Bottles {
     }
     
     func pronoun(_ number: Int) -> String {
-        if number == 1 {
-            return "it"
-        } else {
-            return "one"
-        }
+        return BottleNumber(number).pronoun(number)
     }
     
     func quantity(_ number: Int) -> String {
-        if number == 0 {
-            return "no more"
-        } else {
-            return "\(number)"
-        }
+        return BottleNumber(number).quantity(number)
     }
     
     func action(_ number: Int) -> String {
-        if number == 0 {
-            return "Go to the store and buy some more"
-        } else {
-            return "Take \(pronoun(number)) down and pass it around"
-        }
+        return BottleNumber(number).action(number)
     }
     
     func successor(_ number: Int) -> Int {
-        if number == 0 {
-            return 99
-        } else {
-            return number - 1
-        }
+        return BottleNumber(number).successor(number)
     }
 }
