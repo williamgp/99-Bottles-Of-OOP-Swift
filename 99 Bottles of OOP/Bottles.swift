@@ -42,7 +42,7 @@ class Bottles {
         }
     }
     
-    func container() -> String {
+    func container(_ number: Int = 0) -> String {
         return "bottles"
     }
 }
