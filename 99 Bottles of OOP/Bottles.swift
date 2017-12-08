@@ -18,18 +18,22 @@ class Bottles {
     }
     
     func verse(_ number: Int) -> String {
-        switch number {
-        case 0:
-            return "\(quantity(number).capitalizedFirst) \(container(number)) of beer on the wall, " +
-                "\(quantity(number)) \(container(number)) of beer.\n" +
-                "\(action(number)), " +
-            "\(quantity(successor(number))) \(container(number - 1)) of beer on the wall.\n"
-        default:
-            return "\(quantity(number).capitalizedFirst) \(container(number)) of beer on the wall, " +
-                "\(quantity(number)) \(container(number)) of beer.\n" +
-                "\(action(number)), " +
-            "\(quantity(successor(number))) \(container(number - 1)) of beer on the wall.\n"
-        }
+//        switch number {
+//        case 0:
+//            return "\(quantity(number).capitalizedFirst) \(container(number)) of beer on the wall, " +
+//                "\(quantity(number)) \(container(number)) of beer.\n" +
+//                "\(action(number)), " +
+//            "\(quantity(successor(number))) \(container(number - 1)) of beer on the wall.\n"
+//        default:
+//            return "\(quantity(number).capitalizedFirst) \(container(number)) of beer on the wall, " +
+//                "\(quantity(number)) \(container(number)) of beer.\n" +
+//                "\(action(number)), " +
+//            "\(quantity(successor(number))) \(container(number - 1)) of beer on the wall.\n"
+//        }
+        return "\(quantity(number).capitalizedFirst) \(container(number)) of beer on the wall, " +
+            "\(quantity(number)) \(container(number)) of beer.\n" +
+            "\(action(number)), " +
+        "\(quantity(successor(number))) \(container(number - 1)) of beer on the wall.\n"
     }
     
     func container(_ number: Int) -> String {
