@@ -49,9 +49,12 @@ class Bottles {
     }
     
     func quantity(_ number: Int) -> String {
-        if number == 0 {
+        switch number {
+        case -1:
+            return "99"
+        case 0:
             return "no more"
-        } else {
+        default:
             return "\(number)"
         }
     }
