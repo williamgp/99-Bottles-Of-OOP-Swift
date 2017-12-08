@@ -63,4 +63,8 @@ class Bottles {
             return "Take \(pronoun(number)) down and pass it around"
         }
     }
+    
+    func successor(_ number: Int) -> Int {
+        return number - 1
+    }
 }
