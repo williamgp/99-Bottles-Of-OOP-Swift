@@ -25,7 +25,7 @@ class Bottles {
                 "Go to the store and buy some more, " +
             "99 bottles of beer on the wall.\n"
         default:
-            return "\(number) \(container(number)) of beer on the wall, " +
+            return "\(quantity(number).capitalizedFirst) \(container(number)) of beer on the wall, " +
                 "\(number) \(container(number)) of beer.\n" +
                 "Take \(pronoun(number)) down and pass it around, " +
             "\(quantity(number - 1)) \(container(number - 1)) of beer on the wall.\n"
