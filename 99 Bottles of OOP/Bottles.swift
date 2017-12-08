@@ -21,12 +21,12 @@ class Bottles {
         switch number {
         case 0:
             return "\(quantity(number).capitalizedFirst) \(container(number)) of beer on the wall, " +
-                "no more bottles of beer.\n" +
+                "\(quantity(number)) \(container(number)) of beer.\n" +
                 "Go to the store and buy some more, " +
             "99 bottles of beer on the wall.\n"
         default:
             return "\(quantity(number).capitalizedFirst) \(container(number)) of beer on the wall, " +
-                "\(number) \(container(number)) of beer.\n" +
+                "\(quantity(number)) \(container(number)) of beer.\n" +
                 "Take \(pronoun(number)) down and pass it around, " +
             "\(quantity(number - 1)) \(container(number - 1)) of beer on the wall.\n"
         }
