@@ -20,7 +20,7 @@ class Bottles {
     func verse(_ number: Int) -> String {
         switch number {
         case 0:
-            return "No more bottles of beer on the wall, " +
+            return "\(quantity(number).capitalizedFirst) bottles of beer on the wall, " +
                 "no more bottles of beer.\n" +
                 "Go to the store and buy some more, " +
             "99 bottles of beer on the wall.\n"
