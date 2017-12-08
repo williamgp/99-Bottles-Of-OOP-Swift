@@ -32,4 +32,12 @@ class BottlesTests: XCTestCase {
         "1 bottle of beer on the wall.\n"
         XCTAssertEqual(expected, Bottles().verse(2))
     }
+    
+    func testVerse1() {
+        let expected = "1 bottle of beer on the wall, " +
+            "1 bottle of beer.\n" +
+            "Take it down and pass it around, " +
+        "no more bottles of beer on the wall.\n"
+        XCTAssertEqual(expected, Bottles().verse(1))
+    }
 }
