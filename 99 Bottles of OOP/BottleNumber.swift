@@ -15,7 +15,7 @@ class BottleNumber {
         self.number = number
     }
     
-    func container(_ deleteMe: Int? = nil) -> String {
+    func container() -> String {
         if number == 1 {
             return "bottle"
         } else {
