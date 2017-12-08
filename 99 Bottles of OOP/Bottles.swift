@@ -9,8 +9,12 @@
 import Foundation
 
 class Bottles {
-    func verses(_: Int, _: Int) -> String {
-        return verse(99) + "\n" + verse(98)
+    func verses(_ starting: Int, _ ending: Int) -> String {
+        if starting == 99 {
+            return verse(99) + "\n" + verse(98)
+        } else {
+            return verse(2) + "\n" + verse(1) + "\n" + verse(0)
+        }
     }
     
     func verse(_ number: Int) -> String {
