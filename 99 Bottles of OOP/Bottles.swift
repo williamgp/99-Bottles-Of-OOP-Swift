@@ -33,11 +33,11 @@ class Bottles {
     }
     
     func quantity(_ number: Int) -> String {
-        return BottleNumber(number).quantity(number)
+        return BottleNumber(number).quantity()
     }
     
     func action(_ number: Int) -> String {
-        return BottleNumber(number).action(number)
+        return BottleNumber(number).action()
     }
     
     func successor(_ number: Int) -> Int {

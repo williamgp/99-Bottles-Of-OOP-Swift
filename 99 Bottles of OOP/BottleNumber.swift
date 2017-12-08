@@ -31,7 +31,7 @@ class BottleNumber {
         }
     }
     
-    func quantity(_ number: Int) -> String {
+    func quantity() -> String {
         if number == 0 {
             return "no more"
         } else {
@@ -39,7 +39,7 @@ class BottleNumber {
         }
     }
     
-    func action(_ number: Int) -> String {
+    func action() -> String {
         if number == 0 {
             return "Go to the store and buy some more"
         } else {
