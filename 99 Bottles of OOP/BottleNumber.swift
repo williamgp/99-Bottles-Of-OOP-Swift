@@ -14,7 +14,7 @@ class BottleNumber {
     init(_ number: Int) {
         self.number = number
     }
-    
+
     func container() -> String {
         if number == 1 {
             return "bottle"
@@ -55,3 +55,11 @@ class BottleNumber {
         }
     }
 }
+
+extension BottleNumber: CustomStringConvertible {
+    var description: String {
+        return "\(quantity()) \(container())"
+    }
+}
+
+
