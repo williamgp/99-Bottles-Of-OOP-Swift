@@ -79,4 +79,9 @@ class BottlesTests: XCTestCase {
         "99 bottles of beer on the wall.\n"
         XCTAssertEqual(expected, Bottles().verses(2,0))
     }
+    
+    func testTheWholeSong() {
+        let bottles = Bottles()
+        XCTAssertEqual(bottles.verses(99, 0), bottles.song())
+    }
 }
