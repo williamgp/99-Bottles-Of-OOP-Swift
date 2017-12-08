@@ -43,6 +43,10 @@ class Bottles {
     }
     
     func container(_ number: Int = 0) -> String {
-        return "bottles"
+        if number == 1 {
+            return "bottle"
+        } else {
+            return "bottles"
+        }
     }
 }
