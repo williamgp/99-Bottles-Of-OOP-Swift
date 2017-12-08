@@ -29,7 +29,7 @@ class Bottles {
     }
     
     func pronoun(_ number: Int) -> String {
-        return BottleNumber(number).pronoun(number)
+        return BottleNumber(number).pronoun()
     }
     
     func quantity(_ number: Int) -> String {
