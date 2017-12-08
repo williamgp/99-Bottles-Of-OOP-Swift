@@ -52,4 +52,7 @@ class Bottles {
             return "one"
         }
     }
+    
+    func quantity() {
+    }
 }
