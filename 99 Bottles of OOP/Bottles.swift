@@ -42,6 +42,7 @@ class Bottles {
         }
     }
     
-    func container() {
+    func container() -> String {
+        return "bottles"
     }
 }
