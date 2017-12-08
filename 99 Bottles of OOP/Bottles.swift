@@ -41,4 +41,12 @@ class Bottles {
             "\(number - 1) bottles of beer on the wall.\n"
         }
     }
+    
+    func container(_ number: Int) -> String {
+        if number == 1 {
+            return "bottle"
+        } else {
+            return "bottles"
+        }
+    }
 }
