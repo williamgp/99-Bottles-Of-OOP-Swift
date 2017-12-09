@@ -10,7 +10,11 @@ import Foundation
 
 class Bottles {
     func bottleNumber(for number: Int) -> BottleNumber {
-        return BottleNumber(number)
+        if number == 0 {
+            return BottleNumber0(number)
+        } else {
+            return BottleNumber(number)
+        }
     }
     
     func song() -> String {
