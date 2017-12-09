@@ -19,11 +19,10 @@ class Bottles {
     
     func verse(_ number: Int) -> String {
         let bottleNumber = BottleNumber.make(number)
-        let nextBottleNumber = bottleNumber.successor()
         
         return "\(bottleNumber) ".capitalizedFirst + "of beer on the wall, " +
             "\(bottleNumber) of beer.\n" +
             "\(bottleNumber.action()), " +
-        "\(nextBottleNumber) of beer on the wall.\n"
+        "\(bottleNumber.successor()) of beer on the wall.\n"
     }
 }
