@@ -36,19 +36,11 @@ class BottleNumber {
     }
     
     func action() -> String {
-        if number == 0 {
-            return "Go to the store and buy some more"
-        } else {
-            return "Take \(pronoun()) down and pass it around"
-        }
+        return "Take \(pronoun()) down and pass it around"
     }
     
     func successor() -> Int {
-        if number == 0 {
-            return 99
-        } else {
-            return number - 1
-        }
+        return number - 1
     }
 }
 
