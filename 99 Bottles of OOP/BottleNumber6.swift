@@ -9,5 +9,7 @@
 import Foundation
 
 class BottleNumber6: BottleNumber {
-    
+    override func container() -> String {
+        return "six-pack"
+    }
 }
