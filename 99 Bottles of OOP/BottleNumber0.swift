@@ -17,7 +17,7 @@ class BottleNumber0: BottleNumber {
         return "Go to the store and buy some more"
     }
     
-    override func successor() -> Int {
-        return 99
+    override func successor() -> Any {
+        return BottleNumber.make(99)
     }
 }
