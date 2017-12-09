@@ -32,11 +32,7 @@ class BottleNumber {
     }
     
     func quantity() -> String {
-        if number == 0 {
-            return "no more"
-        } else {
-            return "\(number)"
-        }
+        return number.description
     }
     
     func action() -> String {
