@@ -9,6 +9,10 @@
 import Foundation
 
 class BottleNumber6: BottleNumber {
+    override func quantity() -> String {
+        return "1"
+    }
+    
     override func container() -> String {
         return "six-pack"
     }
