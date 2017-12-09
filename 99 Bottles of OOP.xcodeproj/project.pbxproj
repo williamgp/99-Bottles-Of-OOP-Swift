@@ -13,6 +13,8 @@
 		3D99D57D1FD7A5C600129931 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3D99D57C1FD7A5C600129931 /* Assets.xcassets */; };
 		3D99D5801FD7A5C600129931 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3D99D57E1FD7A5C600129931 /* LaunchScreen.storyboard */; };
 		3DA89E931FDB7E0F009BAC45 /* BottleNumber0.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DBD5FC91FDB5A4500FEDAC0 /* BottleNumber0.swift */; };
+		3DA89E951FDB83DB009BAC45 /* BottleNumber1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DA89E941FDB83DB009BAC45 /* BottleNumber1.swift */; };
+		3DA89E961FDB83EB009BAC45 /* BottleNumber1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DA89E941FDB83DB009BAC45 /* BottleNumber1.swift */; };
 		3DBD5FB51FD9F1D800FEDAC0 /* BottlesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DBD5FB41FD9F1D800FEDAC0 /* BottlesTests.swift */; };
 		3DBD5FC11FDA0DD900FEDAC0 /* Bottles.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DBD5FC01FDA0DD800FEDAC0 /* Bottles.swift */; };
 		3DBD5FC21FDA0DDF00FEDAC0 /* Bottles.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DBD5FC01FDA0DD800FEDAC0 /* Bottles.swift */; };
@@ -43,6 +45,7 @@
 		3D99D5811FD7A5C600129931 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3D99D5861FD7A5C600129931 /* 99 Bottles of OOPTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "99 Bottles of OOPTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3D99D58C1FD7A5C600129931 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3DA89E941FDB83DB009BAC45 /* BottleNumber1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BottleNumber1.swift; sourceTree = "<group>"; };
 		3DBD5FB41FD9F1D800FEDAC0 /* BottlesTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BottlesTests.swift; sourceTree = "<group>"; };
 		3DBD5FC01FDA0DD800FEDAC0 /* Bottles.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Bottles.swift; sourceTree = "<group>"; };
 		3DBD5FC31FDB234700FEDAC0 /* String+CapitalizedFirst.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+CapitalizedFirst.swift"; sourceTree = "<group>"; };
@@ -94,6 +97,7 @@
 				3DBD5FC01FDA0DD800FEDAC0 /* Bottles.swift */,
 				3DBD5FC61FDB2FEF00FEDAC0 /* BottleNumber.swift */,
 				3DBD5FC91FDB5A4500FEDAC0 /* BottleNumber0.swift */,
+				3DA89E941FDB83DB009BAC45 /* BottleNumber1.swift */,
 				3DBD5FC31FDB234700FEDAC0 /* String+CapitalizedFirst.swift */,
 				3D99D5791FD7A5C600129931 /* Main.storyboard */,
 				3D99D57C1FD7A5C600129931 /* Assets.xcassets */,
@@ -218,6 +222,7 @@
 				3DBD5FC71FDB2FEF00FEDAC0 /* BottleNumber.swift in Sources */,
 				3DBD5FCA1FDB5A4500FEDAC0 /* BottleNumber0.swift in Sources */,
 				3DBD5FC41FDB234700FEDAC0 /* String+CapitalizedFirst.swift in Sources */,
+				3DA89E951FDB83DB009BAC45 /* BottleNumber1.swift in Sources */,
 				3D99D5781FD7A5C600129931 /* ViewController.swift in Sources */,
 				3D99D5761FD7A5C600129931 /* AppDelegate.swift in Sources */,
 				3DBD5FC11FDA0DD900FEDAC0 /* Bottles.swift in Sources */,
@@ -230,6 +235,7 @@
 			files = (
 				3DBD5FC81FDB448700FEDAC0 /* BottleNumber.swift in Sources */,
 				3DBD5FB51FD9F1D800FEDAC0 /* BottlesTests.swift in Sources */,
+				3DA89E961FDB83EB009BAC45 /* BottleNumber1.swift in Sources */,
 				3DBD5FC21FDA0DDF00FEDAC0 /* Bottles.swift in Sources */,
 				3DA89E931FDB7E0F009BAC45 /* BottleNumber0.swift in Sources */,
 				3DBD5FC51FDB23BF00FEDAC0 /* String+CapitalizedFirst.swift in Sources */,
