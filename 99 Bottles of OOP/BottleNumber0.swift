@@ -9,5 +9,11 @@
 import Foundation
 
 class BottleNumber0: BottleNumber {
-    
+    override func quantity() -> String {
+        if number == 0 {
+            return "no more"
+        } else {
+            return "\(number)"
+        }
+    }
 }
