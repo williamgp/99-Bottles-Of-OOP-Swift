@@ -15,6 +15,8 @@ class BottleNumber {
             return BottleNumber0(number)
         case 1:
             return BottleNumber1(number)
+        case 6:
+            return BottleNumber6(number)
         default:
             return BottleNumber(number)
         }
