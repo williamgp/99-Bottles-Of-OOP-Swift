@@ -12,6 +12,7 @@
 		3D99D57B1FD7A5C600129931 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3D99D5791FD7A5C600129931 /* Main.storyboard */; };
 		3D99D57D1FD7A5C600129931 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3D99D57C1FD7A5C600129931 /* Assets.xcassets */; };
 		3D99D5801FD7A5C600129931 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3D99D57E1FD7A5C600129931 /* LaunchScreen.storyboard */; };
+		3DA89E931FDB7E0F009BAC45 /* BottleNumber0.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DBD5FC91FDB5A4500FEDAC0 /* BottleNumber0.swift */; };
 		3DBD5FB51FD9F1D800FEDAC0 /* BottlesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DBD5FB41FD9F1D800FEDAC0 /* BottlesTests.swift */; };
 		3DBD5FC11FDA0DD900FEDAC0 /* Bottles.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DBD5FC01FDA0DD800FEDAC0 /* Bottles.swift */; };
 		3DBD5FC21FDA0DDF00FEDAC0 /* Bottles.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DBD5FC01FDA0DD800FEDAC0 /* Bottles.swift */; };
@@ -230,6 +231,7 @@
 				3DBD5FC81FDB448700FEDAC0 /* BottleNumber.swift in Sources */,
 				3DBD5FB51FD9F1D800FEDAC0 /* BottlesTests.swift in Sources */,
 				3DBD5FC21FDA0DDF00FEDAC0 /* Bottles.swift in Sources */,
+				3DA89E931FDB7E0F009BAC45 /* BottleNumber0.swift in Sources */,
 				3DBD5FC51FDB23BF00FEDAC0 /* String+CapitalizedFirst.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
