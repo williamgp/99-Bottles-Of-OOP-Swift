@@ -9,6 +9,10 @@
 import Foundation
 
 class Bottles {
+    func bottleNumber(for number: Int) -> BottleNumber {
+        return BottleNumber(number)
+    }
+    
     func song() -> String {
         return verses(99, 0)
     }
