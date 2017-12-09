@@ -10,22 +10,14 @@ import Foundation
 
 class BottleNumber0: BottleNumber {
     override func quantity() -> String {
-            return "no more"
+        return "no more"
     }
     
     override func action() -> String {
-        if number == 0 {
-            return "Go to the store and buy some more"
-        } else {
-            return "Take \(pronoun()) down and pass it around"
-        }
+        return "Go to the store and buy some more"
     }
     
     override func successor() -> Int {
-        if number == 0 {
-            return 99
-        } else {
-            return number - 1
-        }
+        return 99
     }
 }
