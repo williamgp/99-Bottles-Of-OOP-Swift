@@ -9,7 +9,7 @@
 import Foundation
 
 class BottleNumber {
-    class func bottleNumber(for number: Int) -> BottleNumber {
+    static func make(_ number: Int) -> BottleNumber {
         switch number {
         case 0:
             return BottleNumber0(number)
