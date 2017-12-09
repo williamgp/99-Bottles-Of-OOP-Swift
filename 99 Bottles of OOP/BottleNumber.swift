@@ -46,7 +46,7 @@ class BottleNumber {
     }
     
     func successor() -> Any {
-        return number - 1
+        return BottleNumber.make(number - 1)
     }
 }
 
