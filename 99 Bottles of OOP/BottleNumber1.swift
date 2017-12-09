@@ -10,10 +10,6 @@ import Foundation
 
 class BottleNumber1: BottleNumber {
     override func container() -> String {
-        if number == 1 {
-            return "bottle"
-        } else {
-            return "bottles"
-        }
+        return "bottle"
     }
 }
