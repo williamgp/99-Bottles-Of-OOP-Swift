@@ -12,4 +12,8 @@ class BottleNumber1: BottleNumber {
     override func container() -> String {
         return "bottle"
     }
+    
+    override func pronoun() -> String {
+            return "it"
+    }
 }

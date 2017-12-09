@@ -20,11 +20,7 @@ class BottleNumber {
     }
     
     func pronoun() -> String {
-        if number == 1 {
-            return "it"
-        } else {
-            return "one"
-        }
+        return "one"
     }
     
     func quantity() -> String {
