@@ -16,11 +16,7 @@ class BottleNumber {
     }
 
     func container() -> String {
-        if number == 1 {
-            return "bottle"
-        } else {
-            return "bottles"
-        }
+        return "bottles"
     }
     
     func pronoun() -> String {
