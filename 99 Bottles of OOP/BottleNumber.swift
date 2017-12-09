@@ -45,7 +45,7 @@ class BottleNumber {
         return "Take \(pronoun()) down and pass it around"
     }
     
-    func successor() -> Any {
+    func successor() -> BottleNumber {
         return BottleNumber.make(number - 1)
     }
 }
