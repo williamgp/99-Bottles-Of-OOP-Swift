@@ -9,17 +9,6 @@
 import Foundation
 
 class Bottles {
-    func bottleNumber(for number: Int) -> BottleNumber {
-        switch number {
-        case 0:
-            return BottleNumber0(number)
-        case 1:
-            return BottleNumber1(number)
-        default:
-            return BottleNumber(number)
-        }
-    }
-    
     func song() -> String {
         return verses(99, 0)
     }
@@ -36,5 +25,16 @@ class Bottles {
             "\(bottleNumber) of beer.\n" +
             "\(bottleNumber.action()), " +
         "\(nextBottleNumber) of beer on the wall.\n"
+    }
+    
+    func bottleNumber(for number: Int) -> BottleNumber {
+        switch number {
+        case 0:
+            return BottleNumber0(number)
+        case 1:
+            return BottleNumber1(number)
+        default:
+            return BottleNumber(number)
+        }
     }
 }
