@@ -10,9 +10,12 @@ import Foundation
 
 class Bottles {
     func bottleNumber(for number: Int) -> BottleNumber {
-        if number == 0 {
+        switch number {
+        case 0:
             return BottleNumber0(number)
-        } else {
+        case 1:
+            return BottleNumber1(number)
+        default:
             return BottleNumber(number)
         }
     }
