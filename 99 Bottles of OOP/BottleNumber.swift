@@ -9,7 +9,10 @@
 import Foundation
 
 class BottleNumber {
-    static func make(_ number: Int) -> BottleNumber {
+    static func make(_ n: Any) -> BottleNumber {
+        guard let number = n as? Int else {
+            return n as! BottleNumber
+        }
         switch number {
         case 0:
             return BottleNumber0(number)
