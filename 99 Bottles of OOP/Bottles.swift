@@ -18,8 +18,8 @@ class Bottles {
     }
     
     func verse(_ number: Int) -> String {
-        let bottleNumber = self.bottleNumber(for: number)
-        let nextBottleNumber = self.bottleNumber(for: bottleNumber.successor())
+        let bottleNumber = BottleNumber.make(number)
+        let nextBottleNumber = BottleNumber.make(bottleNumber.successor())
 //        let nextBottleNumber = bottleNumber.successor()
         
         return "\(bottleNumber) ".capitalizedFirst + "of beer on the wall, " +
