@@ -15,22 +15,14 @@ struct BottleNumber0: BottleNumberProtocol {
         self.number = number
     }
     
-    func container() -> String {
-        return "bottles"
-    }
-    
-    func pronoun() -> String {
-        return "one"
-    }
-    
     func quantity() -> String {
         return "no more"
     }
-    
+
     func action() -> String {
         return "Go to the store and buy some more"
     }
-    
+
     func successor() -> BottleNumberProtocol {
         return BottleNumberFactory.make(99)
     }
