@@ -12,13 +12,13 @@ struct BottleNumberFactory {
     static func make(_ number: Int) -> BottleNumberProtocol {
         switch number {
         case 0:
-            return BottleNumber0(number)
+            return BottleNumber0(number: number)
         case 1:
-            return BottleNumber1(number)
+            return BottleNumber1(number: number)
         case 6:
-            return BottleNumber6(number)
+            return BottleNumber6(number: number)
         default:
-            return BottleNumber(number)
+            return BottleNumber(number: number)
         }
     }
 }

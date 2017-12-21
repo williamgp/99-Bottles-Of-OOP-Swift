@@ -10,10 +10,6 @@ import Foundation
 
 struct BottleNumber1: BottleNumberProtocol {
     let number: Int
-    
-    init(_ number: Int) {
-        self.number = number
-    }
 
     func container() -> String {
         return "bottle"

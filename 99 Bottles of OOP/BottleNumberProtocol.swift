@@ -10,9 +10,7 @@ import Foundation
 
 protocol BottleNumberProtocol: CustomStringConvertible {
     var number: Int { get }
-    
-    init(_ number: Int)
-    
+        
     func container() -> String
     
     func pronoun() -> String

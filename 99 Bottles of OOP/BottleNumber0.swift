@@ -11,10 +11,6 @@ import Foundation
 struct BottleNumber0: BottleNumberProtocol {
     let number: Int
     
-    init(_ number: Int) {
-        self.number = number
-    }
-    
     func quantity() -> String {
         return "no more"
     }

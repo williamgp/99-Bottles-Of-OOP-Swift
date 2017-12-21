@@ -9,11 +9,7 @@
 import Foundation
 
 struct BottleNumber: BottleNumberProtocol {
-    let number: Int
-    
-    init(_ number: Int) {
-        self.number = number
-    }
+    let number: Int    
 }
 
 
