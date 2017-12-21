@@ -14,25 +14,13 @@ struct BottleNumber1: BottleNumberProtocol {
     init(_ number: Int) {
         self.number = number
     }
-    
-    func quantity() -> String {
-        return number.description
-    }
-    
-    func action() -> String {
-        return "Take \(pronoun()) down and pass it around"
-    }
-    
-    func successor() -> BottleNumberProtocol {
-        return BottleNumberFactory.make(number - 1)
-    }
-    
+
     func container() -> String {
         return "bottle"
     }
     
     func pronoun() -> String {
-            return "it"
+        return "it"
     }
 }
 
