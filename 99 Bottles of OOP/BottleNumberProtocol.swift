@@ -8,7 +8,7 @@
 
 import Foundation
 
-protocol BottleNumberProtocol {
+protocol BottleNumberProtocol: CustomStringConvertible {
     var number: Int { get }
     
     init(_ number: Int)
@@ -22,4 +22,10 @@ protocol BottleNumberProtocol {
     func action() -> String
     
     func successor() -> BottleNumberProtocol
+}
+
+extension CustomStringConvertible where Self: BottleNumberProtocol {
+    var description: String {
+        return "\(quantity()) \(container())"
+    }
 }

@@ -36,8 +36,3 @@ struct BottleNumber1: BottleNumberProtocol {
     }
 }
 
-extension BottleNumber1: CustomStringConvertible {
-    var description: String {
-        return "\(quantity()) \(container())"
-    }
-}
