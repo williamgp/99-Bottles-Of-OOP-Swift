@@ -8,7 +8,7 @@
 
 import Foundation
 
-class Bottles {
+struct Bottles {
     func song() -> String {
         return verses(99, 0)
     }
@@ -18,7 +18,7 @@ class Bottles {
     }
     
     func verse(_ number: Int) -> String {
-        let bottleNumber = BottleNumber.make(number)
+        let bottleNumber = BottleNumberFactory.make(number)
         
         return "\(bottleNumber) ".capitalizedFirst + "of beer on the wall, " +
             "\(bottleNumber) of beer.\n" +

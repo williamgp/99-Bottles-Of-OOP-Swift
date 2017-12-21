@@ -8,12 +8,36 @@
 
 import Foundation
 
-class BottleNumber6: BottleNumber {
-    override func quantity() -> String {
+struct BottleNumber6: BottleNumberProtocol {
+    let number: Int
+    
+    init(_ number: Int) {
+        self.number = number
+    }
+    
+    func pronoun() -> String {
+        return "one"
+    }
+    
+    func action() -> String {
+        return "Take \(pronoun()) down and pass it around"
+    }
+    
+    func successor() -> BottleNumberProtocol {
+        return BottleNumberFactory.make(number - 1)
+    }
+    
+    func quantity() -> String {
         return "1"
     }
     
-    override func container() -> String {
+    func container() -> String {
         return "six-pack"
+    }
+}
+
+extension BottleNumber6: CustomStringConvertible {
+    var description: String {
+        return "\(quantity()) \(container())"
     }
 }

@@ -15,9 +15,5 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         label.text = Bottles().song()
     }
-
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-    }
 }
 

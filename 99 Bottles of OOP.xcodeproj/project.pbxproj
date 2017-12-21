@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3D5BDFB11FEB3C6A00A10AAD /* BottleNumberFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D5BDFB01FEB3C6A00A10AAD /* BottleNumberFactory.swift */; };
+		3D5BDFB31FEB3C7300A10AAD /* BottleNumberProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D5BDFB21FEB3C7300A10AAD /* BottleNumberProtocol.swift */; };
+		3D5BDFB41FEB3D1800A10AAD /* BottleNumberProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D5BDFB21FEB3C7300A10AAD /* BottleNumberProtocol.swift */; };
+		3D5BDFB51FEB3D1D00A10AAD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D99D5771FD7A5C600129931 /* ViewController.swift */; };
+		3D5BDFB61FEB3D2E00A10AAD /* BottleNumberFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D5BDFB01FEB3C6A00A10AAD /* BottleNumberFactory.swift */; };
 		3D99D5761FD7A5C600129931 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D99D5751FD7A5C600129931 /* AppDelegate.swift */; };
 		3D99D5781FD7A5C600129931 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D99D5771FD7A5C600129931 /* ViewController.swift */; };
 		3D99D57B1FD7A5C600129931 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3D99D5791FD7A5C600129931 /* Main.storyboard */; };
@@ -38,6 +43,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		3D5BDFB01FEB3C6A00A10AAD /* BottleNumberFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BottleNumberFactory.swift; sourceTree = "<group>"; };
+		3D5BDFB21FEB3C7300A10AAD /* BottleNumberProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BottleNumberProtocol.swift; sourceTree = "<group>"; };
 		3D99D5721FD7A5C600129931 /* 99 Bottles of OOP.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "99 Bottles of OOP.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3D99D5751FD7A5C600129931 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3D99D5771FD7A5C600129931 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -74,6 +81,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3D5BDFAF1FEB327000A10AAD /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				3DBD5FC31FDB234700FEDAC0 /* String+CapitalizedFirst.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
 		3D99D5691FD7A5C500129931 = {
 			isa = PBXGroup;
 			children = (
@@ -98,11 +113,13 @@
 				3D99D5751FD7A5C600129931 /* AppDelegate.swift */,
 				3D99D5771FD7A5C600129931 /* ViewController.swift */,
 				3DBD5FC01FDA0DD800FEDAC0 /* Bottles.swift */,
+				3D5BDFB01FEB3C6A00A10AAD /* BottleNumberFactory.swift */,
+				3D5BDFB21FEB3C7300A10AAD /* BottleNumberProtocol.swift */,
 				3DBD5FC61FDB2FEF00FEDAC0 /* BottleNumber.swift */,
 				3DBD5FC91FDB5A4500FEDAC0 /* BottleNumber0.swift */,
 				3DA89E941FDB83DB009BAC45 /* BottleNumber1.swift */,
 				3DA89E971FDBBAB5009BAC45 /* BottleNumber6.swift */,
-				3DBD5FC31FDB234700FEDAC0 /* String+CapitalizedFirst.swift */,
+				3D5BDFAF1FEB327000A10AAD /* Utils */,
 				3D99D5791FD7A5C600129931 /* Main.storyboard */,
 				3D99D57C1FD7A5C600129931 /* Assets.xcassets */,
 				3D99D57E1FD7A5C600129931 /* LaunchScreen.storyboard */,
@@ -223,11 +240,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3D5BDFB11FEB3C6A00A10AAD /* BottleNumberFactory.swift in Sources */,
 				3DBD5FC71FDB2FEF00FEDAC0 /* BottleNumber.swift in Sources */,
 				3DBD5FCA1FDB5A4500FEDAC0 /* BottleNumber0.swift in Sources */,
 				3DBD5FC41FDB234700FEDAC0 /* String+CapitalizedFirst.swift in Sources */,
 				3DA89E951FDB83DB009BAC45 /* BottleNumber1.swift in Sources */,
 				3D99D5781FD7A5C600129931 /* ViewController.swift in Sources */,
+				3D5BDFB31FEB3C7300A10AAD /* BottleNumberProtocol.swift in Sources */,
 				3D99D5761FD7A5C600129931 /* AppDelegate.swift in Sources */,
 				3DBD5FC11FDA0DD900FEDAC0 /* Bottles.swift in Sources */,
 				3DA89E981FDBBAB5009BAC45 /* BottleNumber6.swift in Sources */,
@@ -240,11 +259,14 @@
 			files = (
 				3DBD5FC81FDB448700FEDAC0 /* BottleNumber.swift in Sources */,
 				3DBD5FB51FD9F1D800FEDAC0 /* BottlesTests.swift in Sources */,
+				3D5BDFB41FEB3D1800A10AAD /* BottleNumberProtocol.swift in Sources */,
+				3D5BDFB51FEB3D1D00A10AAD /* ViewController.swift in Sources */,
 				3DA89E961FDB83EB009BAC45 /* BottleNumber1.swift in Sources */,
 				3DBD5FC21FDA0DDF00FEDAC0 /* Bottles.swift in Sources */,
 				3DA89E931FDB7E0F009BAC45 /* BottleNumber0.swift in Sources */,
 				3DBD5FC51FDB23BF00FEDAC0 /* String+CapitalizedFirst.swift in Sources */,
 				3DA89E991FDBBC07009BAC45 /* BottleNumber6.swift in Sources */,
+				3D5BDFB61FEB3D2E00A10AAD /* BottleNumberFactory.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

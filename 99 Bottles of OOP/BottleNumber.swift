@@ -8,20 +8,8 @@
 
 import Foundation
 
-class BottleNumber {
-    static func make(_ number: Int) -> BottleNumber {
-        switch number {
-        case 0:
-            return BottleNumber0(number)
-        case 1:
-            return BottleNumber1(number)
-        case 6:
-            return BottleNumber6(number)
-        default:
-            return BottleNumber(number)
-        }
-    }
-
+struct BottleNumber: BottleNumberProtocol {
+    
     let number: Int
     
     init(_ number: Int) {
@@ -44,8 +32,8 @@ class BottleNumber {
         return "Take \(pronoun()) down and pass it around"
     }
     
-    func successor() -> BottleNumber {
-        return BottleNumber.make(number - 1)
+    func successor() -> BottleNumberProtocol {
+        return BottleNumberFactory.make(number - 1)
     }
 }
 
