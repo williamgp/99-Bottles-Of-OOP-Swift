@@ -9,31 +9,10 @@
 import Foundation
 
 struct BottleNumber: BottleNumberProtocol {
-    
     let number: Int
     
     init(_ number: Int) {
         self.number = number
-    }
-
-    func container() -> String {
-        return "bottles"
-    }
-    
-    func pronoun() -> String {
-        return "one"
-    }
-    
-    func quantity() -> String {
-        return number.description
-    }
-    
-    func action() -> String {
-        return "Take \(pronoun()) down and pass it around"
-    }
-    
-    func successor() -> BottleNumberProtocol {
-        return BottleNumberFactory.make(number - 1)
     }
 }
 

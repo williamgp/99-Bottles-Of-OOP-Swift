@@ -29,3 +29,25 @@ extension CustomStringConvertible where Self: BottleNumberProtocol {
         return "\(quantity()) \(container())"
     }
 }
+
+extension BottleNumberProtocol {
+    func container() -> String {
+        return "bottles"
+    }
+    
+    func pronoun() -> String {
+        return "one"
+    }
+    
+    func quantity() -> String {
+        return number.description
+    }
+    
+    func action() -> String {
+        return "Take \(pronoun()) down and pass it around"
+    }
+    
+    func successor() -> BottleNumberProtocol {
+        return BottleNumberFactory.make(number - 1)
+    }
+}
