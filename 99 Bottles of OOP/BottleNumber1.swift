@@ -10,12 +10,12 @@ import Foundation
 
 struct BottleNumber1: BottleNumberProtocol {
     let number: Int
-
-    func container() -> String {
+    
+    var container: String {
         return "bottle"
     }
     
-    func pronoun() -> String {
+    var pronoun: String {
         return "it"
     }
 }

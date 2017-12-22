@@ -22,7 +22,7 @@ struct Bottles {
         
         return "\(bottleNumber) ".capitalizedFirst + "of beer on the wall, " +
             "\(bottleNumber) of beer.\n" +
-            "\(bottleNumber.action()), " +
+            "\(bottleNumber.action), " +
         "\(bottleNumber.successor()) of beer on the wall.\n"
     }
 }

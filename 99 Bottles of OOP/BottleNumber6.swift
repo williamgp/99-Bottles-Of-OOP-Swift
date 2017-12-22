@@ -10,13 +10,13 @@ import Foundation
 
 struct BottleNumber6: BottleNumberProtocol {
     let number: Int
-
-    func quantity() -> String {
-        return "1"
-    }
     
-    func container() -> String {
+    var container: String {
         return "six-pack"
+    }
+
+    var quantity: String {
+        return "1"
     }
 }
 

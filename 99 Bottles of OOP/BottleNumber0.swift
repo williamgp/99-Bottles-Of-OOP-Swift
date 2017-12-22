@@ -11,11 +11,11 @@ import Foundation
 struct BottleNumber0: BottleNumberProtocol {
     let number: Int
     
-    func quantity() -> String {
+    var quantity: String {
         return "no more"
     }
 
-    func action() -> String {
+    var action: String {
         return "Go to the store and buy some more"
     }
 

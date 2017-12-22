@@ -10,39 +10,39 @@ import Foundation
 
 protocol BottleNumberProtocol: CustomStringConvertible {
     var number: Int { get }
-        
-    func container() -> String
     
-    func pronoun() -> String
+    var container: String { get }
     
-    func quantity() -> String
+    var pronoun: String { get }
     
-    func action() -> String
+    var quantity: String { get }
     
+    var action: String { get }
+
     func successor() -> BottleNumberProtocol
 }
 
 extension CustomStringConvertible where Self: BottleNumberProtocol {
     var description: String {
-        return "\(quantity()) \(container())"
+        return "\(quantity) \(container)"
     }
 }
 
 extension BottleNumberProtocol {
-    func container() -> String {
+    var container: String {
         return "bottles"
     }
-    
-    func pronoun() -> String {
+
+    var pronoun: String {
         return "one"
     }
     
-    func quantity() -> String {
+    var quantity: String {
         return number.description
     }
     
-    func action() -> String {
-        return "Take \(pronoun()) down and pass it around"
+    var action: String {
+        return "Take \(pronoun) down and pass it around"
     }
     
     func successor() -> BottleNumberProtocol {
